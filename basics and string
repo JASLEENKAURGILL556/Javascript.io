@@ -1,0 +1,37 @@
+<script type="text/javascript" >
+		//console.log is used to print something in console
+		console.log("hello,World")
+		// their are 3 ways to declare a variable
+		// var to assign global variable 
+		// let to assign local variable (most often used)
+		// const to assign const variable (value is constant once declared)
+		var name="Jasleen";
+		let rollno=1;
+		const age=20; 
+        // semicolon is extra sytax thing but it is recommended by developers
+        // variable declartion are case senstive and should start with 
+        // small letters are allowed to start a variable name
+        rollno++;
+        rollno--;
+        /* 
+         code output
+         \'  single quote
+         \"  double quote
+         \\  backlash
+         \n  newline
+         \r  carriage return
+         \t  tab
+         \b  backspace
+         \f  form feed
+
+         */
+
+         var mystr = "firstline\n\t\\secondline\nthirdline";
+         console.log(mystr)
+
+         // to access a single character in string we use indexing 
+         var output=name[0];
+         console.log(output)
+
+
+	</script>
