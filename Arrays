@@ -1,0 +1,21 @@
+<script type="text/javascript" >
+		//array declartion
+		var arr=["Jasleen",20];
+		//nested array
+		var names=[["Jungkook",24],["Taehyung",26]];
+		// to add element in array use push function
+		names.push(["Jennie",26]);
+		console.log(names[2])
+		//pop function to delete array element using stack(head is end) rules(filo)
+		names.pop();
+		// shift function to remove element and store the removed element 
+		// in variable 
+		var shiftsvar = names.shift();
+		console.log(shiftsvar)
+		//unshift add element to array starting
+		names.unshift(["paul",35]);
+		console.log(names[0])
+
+
+
+	</script>
