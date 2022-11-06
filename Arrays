@@ -15,6 +15,18 @@
 		//unshift add element to array starting
 		names.unshift(["paul",35]);
 		console.log(names[0])
+		
+//function declartion
+function nextline(arr,item){
+  //push fuction to element in array;
+  arr.push(item);
+  return item;
+}
+var testArr=[1,2,3,4,5];
+console.log("Before: "+JSON.stringify(testArr));
+console.log(nextline(testArr,6));
+console.log("After: "+JSON.stringify(testArr));
+
 
 
 
