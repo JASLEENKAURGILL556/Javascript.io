@@ -31,3 +31,35 @@ function teststrict(val){
 }
 var value=7
 teststrict(value);
+
+/int return type function is created by changing the return datatype
+function booleans(val){
+   if(val>=6)
+     {
+       return val+10;
+     }
+  else{
+    return val*10;
+  }
+}
+
+console.log(booleans(5));
+
+
+
+
+//boolean function which takes parameter as bool values
+function booleans(val){
+   if(val)
+     {
+       return "yes it is true";
+     }
+  else{
+    return "no it is false";
+  }
+}
+
+console.log(booleans(false));
+
+
+
