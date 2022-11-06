@@ -1,0 +1,33 @@
+function reuse(){
+  console.log("Hello , World");
+  
+}
+reuse();
+// return type of fuction define the data type of fuction 
+function paraval(name,age){
+  console.log(name);
+  console.log(age);
+}
+paraval("Jasleen",20);
+// == comparison operator will be true for 3 == '3' it will to type conversion by itself 
+// from string to int so on
+//=== comparison operator will be false as it don't to type conversion by itself
+function teststrict(val){
+  if(val==7)
+    {
+      console.log("true == condtion")
+    }
+  
+  
+  if(val===7)
+    {
+      console.log("true === condtion")
+    }
+  else
+    {
+      console.log("false === condition")
+    }
+  
+}
+var value=7
+teststrict(value);
