@@ -1,0 +1,21 @@
+var myObj = {
+  gift:"pony",
+  pet:"kitten",
+  bed:"sleigh"
+};
+
+function checkObj(checkProp){
+  if(myObj.hasOwnProperty(checkProp))
+    {
+      return myObj[checkProp];
+    }
+  else
+    {
+      return "Not found"
+    }
+}
+// this way we can access object members using funciton 
+//function parameter as input and using hasOwnProperty function
+// to check if input as property exists or not it acts as check condition
+
+console.log(checkObj("gift"));
