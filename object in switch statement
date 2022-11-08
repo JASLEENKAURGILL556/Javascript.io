@@ -1,0 +1,37 @@
+// the funciton is created then object member is accessed then 
+//output is result of switch statement loop using with object 
+
+function phoneticLookup(val){
+  var result="";
+  
+  var lookup = {
+    "alpha":"Adams",
+    "bravo":"Boston",
+    "charlie":"Chicago",
+    "delta":"Denver",
+    "echo":"Easy",
+    "foxtrot":"frank"
+  };
+    switch(val)
+    {
+      case "alpha":
+        result="Adams";
+        break;
+      case "bravo":
+        result="Boston";
+        break;
+      case "charlie":
+        result="Chicago";
+        break;
+      case "echo":
+        result="Easy";
+        break;
+        
+    }
+  result= lookup[val];
+  return result;
+}
+var output=phoneticLookup("charlie");
+console.log(output);
+  
+
