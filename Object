@@ -1,0 +1,20 @@
+// object created 
+// property:value value can be in form of array such as friends property has everyting array
+var ourDog ={
+  "name":"Camper",
+  "legs":4,
+  "tails":1,
+  "friends":["everything!"]
+};
+// bracket notation to access value through property
+var callout = ourDog["legs"];
+console.log(callout)
+// updating the value through property
+ourDog["name"]="Tiger";
+console.log(ourDog["name"]);
+// adding element in object
+ourDog["bark"]=5;
+console.log(ourDog["bark"]);
+//deleting the element from object 
+delete ourDog["tails"];
+console.log(ourDog["tails"]);// answer will be undefined 
