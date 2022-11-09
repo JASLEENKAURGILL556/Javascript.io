@@ -16,3 +16,28 @@ var myStorage = {
 var gloveBoxContents = myStorage.car.inside["glove box"];
 
 console.log(gloveBoxContents);
+
+// nested object inside array 
+var myPlants = [
+  {
+    type:"flowers",
+    list:[
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type:"trees",
+    list:[
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+// object then array then index define the object 
+// then second . tells the property inside object and index the value
+var result = myPlants[1].list[2];
+console.log(result);
