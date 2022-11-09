@@ -1,0 +1,18 @@
+// nested object like car property have value as second object
+// then inside is object which have values 
+
+var myStorage = {
+  "car":{
+    "inside":{
+      "glove box":"maps",
+      "passenger seat": "crumbs"
+    },
+    "outside":{
+      "trunk": "jack"
+    }
+  }
+};
+
+var gloveBoxContents = myStorage.car.inside["glove box"];
+
+console.log(gloveBoxContents);
